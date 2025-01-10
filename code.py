@@ -12,7 +12,8 @@ def prompt():
 
 def generator():
     global pwd
-    pwd = random.randint(0, int("9" * length))
+    pwd = str(random.randint(0, int("9" * length)))
+    pwd = pwd.zfill(length)
 
 def saving():
     try:
