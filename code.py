@@ -1,5 +1,4 @@
 import random
-import os
 
 print("Welcome to using a password generator.")
 
